@@ -1,0 +1,7 @@
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/controller/RootController.java
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/repo/TaskRepo.java
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/model/Task.java
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/TaskBackendApplication.java
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/utils/ValidationException.java
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/controller/TaskController.java
+/home/ribeiro/devops/tasks-backend/src/main/java/br/ce/wcaquino/taskbackend/utils/DateUtils.java
