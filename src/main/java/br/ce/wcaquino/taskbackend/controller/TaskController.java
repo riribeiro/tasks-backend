@@ -21,7 +21,7 @@ import br.ce.wcaquino.taskbackend.utils.ValidationException;
 public class TaskController {
 
 	@Autowired
-	private TaskRepo todoRepo;
+	private static TaskRepo todoRepo;
 	
 	@GetMapping
 	public List<Task> findAll() {
@@ -29,7 +29,7 @@ public class TaskController {
 	}
 	
 	@PostMapping
-	public ResponseEntity<Task> save(@RequestBody Task todo) throws ValidationException {
+	public static ResponseEntity<Task> save(@RequestBody Task todo) throws ValidationException {
 		if(todo.getTask() == null || todo.getTask() == "") {
 			throw new ValidationException("Fill the task description");
 		}
